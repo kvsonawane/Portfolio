@@ -1,0 +1,153 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>Portfolio Website</title>
+			<link rel="stylesheet" type="text/css" href="portfolio.css" />
+			<link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+		</head>
+
+		<body>
+			<div class="container">
+				<header class="flex">
+					<div class="logo">Portfolio<span>.</span></div>
+					<nav>
+						<ul class="flex">
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Service</a></li>
+							<li><a href="#project">Portfolio</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+						</ul>
+
+						<div id="search" class="flex">
+							<i class="fa-solid fa-magnifying-glass"></i>
+							<input type="text" name="id=" placeholder="Search..." />
+						</div>
+					</nav>
+				</header>
+
+				<div class="main flex">
+					<div class="main-one">
+						<h1>Hey! I am</h1>
+						<span class="auto">Karan Sonawane,</span><br/>
+						<span class="web">a Web Developer</span>
+						<p></p>
+						<button>Hire Me</button>
+					</div>
+
+					<div class="main-two">
+						<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\karan.jpeg" alt="" />
+					</div>
+				</div>
+
+				<section class="projects" id="project">
+					<h1>My Awesome<br/>
+						<span>Projects</span>
+					</h1>
+
+					<p></p>
+
+					<button class="button">Download CV</button>
+
+					<div class="projects-div flex div-1">
+						<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\qr-code.png" alt=""/>
+						<h3>QR Code generator</h3>
+						<p>It is a niche tool that is used to generate types of QR Codes. It is type of Barcode that can be read easily by a digital device.</p>
+						<a href="https://github.com/kvsonawane/QR_Code.git">
+							<button>View Source</button>
+						</a>
+					</div>
+
+					<div class="projects-div flex div-2">
+						<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\login.png" alt=""/>
+						<h3>Login Page</h3>
+						<p>The Login Page allows a user to gain access to an application by entering their username and password or by authenticating using a social media login</p>
+						<a href="https://github.com/kvsonawane/Aesthetic-Login_Page.git">
+							<button>Live Preview</button>
+						</a>
+					</div>
+
+					<div class="projects-div flex div-3">
+						<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\restaurant-app.png" alt=""/>
+						<h3>Food App HomePage</h3>
+						<p>Food app allow customers to order from a nearby restaurant at their convenience. the customers can get their order delivered, they can pck it up themselves.</p>
+						<a href="https://github.com/kvsonawane/Food_app-Home-Page.git">
+							<button>Live Preview</button>
+						</a>
+					</div>
+				</section>
+
+				<br/><br/>
+
+				<section class="about flex" id="about">
+					<div class="about-one">
+						<h1>About Me</h1>
+						<span>Karan Sonawane</span>
+						<p>I am 21 year old, Computer Science and Engineering student studied at K.T.H.M College of Science and Computer studies. I got inspired by @learnwithshero as well as @codewithrandom and gained the skill of Web Development. I gained a certificate of Web Development course completion, by Internshala. I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better.</p>
+						<div class="btns">
+							<button>Download CV</button>
+							<button>Contact Me</button>
+							<br/>
+							<br/>
+							<p class="links">Or find me on:</p>
+                            <a href="https://www.linkedin.com/in/karan-sonawane-15369422a/" target="blank" class="linked">Linkedin
+                            	<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\linkedin.png" id="in">
+                            </a><br/>
+                            <a href="https://github.com/kvsonawane" target="blank" class="git">Github
+                            	<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\github.png" id="hub">
+                            </a><br/>
+                            <a href="https://www.instagram.com/_independentmelvin_/" target="blank" class="insta">Instagram
+                            	<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\instagram.png" id="gram">
+                            </a>
+						</div>
+					</div>
+
+					<div class="about-two">
+						<img src="C:\Users\Lenovo\Desktop\JAVASCRIPT\portfolio\img\skill.png" alt="" />
+					</div>
+				</section>
+
+				<br/><br/><br/>
+
+				<section class="contact" id="contact">
+					<h1>Let Us
+						<span>Talk!</span>
+					</h1>
+
+					<div class="box flex">
+						<div>
+							<i class="fa-solid fa-user"></i>
+							<input type="text" placeholder="Name..." />
+						</div>
+
+						<div>
+							<i class="fa-solid fa-envelope"></i>
+							<input type="email" placeholder="Email..." />
+						</div>
+
+						<textarea name="" id="" cols="60" rows="5" placeholder="Enter your message here..."></textarea>
+
+						<div>
+							<input type="submit" class="send" value="Send" />
+						</div>
+					</div>
+				</section>
+
+				<footer class="flex" id="footer">
+					<div class="copy">@copywrite 2025 karan.</div>
+
+					<div class="social">
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-facebook"></i>
+						<i class="fa-brands fa-whatsapp"></i>
+						<i class="fa-brands fa-phone"></i>
+					</div>
+				</footer>
+			</div>
+
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+			<script var typed = new Typed(".auto", {strings:["Karan Sonawane", "Web Developer", "UI/UX Designer"], typeSpeed:60, backspeed:70, loop:true,});></script>
+		</body>
+	</html>
